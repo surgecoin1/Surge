@@ -1024,10 +1024,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Surge Coin";
+    return pathRet / "SurgeCoin";
 #else
     // Unix
-    return pathRet / ".Surge Coin";
+    return pathRet / ".SurgeCoin";
 #endif
 #endif
 }
